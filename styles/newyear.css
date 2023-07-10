@@ -72,7 +72,6 @@ main {
 }
 
 .my-failures-title {
-    /* display: flex; */
     font-size: 40px;
     font-family: Work Sans;
 }
@@ -83,6 +82,7 @@ main {
     color: #444343;
 }
 
+/* My plan related section */
 
 .my-plans-container {
     display: flex;
@@ -98,6 +98,9 @@ main {
     text-align: center;
     font-size: 40px;
 }
+
+
+/* call to action button */
 
 .call-now-btn {
     color: #005FAC;
@@ -115,7 +118,8 @@ main {
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
     border-radius: 8px;
     padding: 50px;
-    
+    margin-bottom: 130px;
+
 }
 
 .call-now-title {
@@ -123,3 +127,36 @@ main {
     font-family: Work Sans;
     font-size: 40px;
 }
+
+/* footer */
+.footer {
+    background-color: black;
+    color: #FFF;
+    font-family: Work Sans;
+    padding: 130px 230px 130px 100px;
+    display: flex;
+}
+
+.footer-title {
+    font-size: 45px;
+}
+
+.form-button {
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    margin: 5px 0;
+}
+
+.footer-form {
+    border: 2px;
+    border: 1px solid #FFF;
+    padding: 10px;
+    border-radius: 8px;
+    background: black;
+    color: #FFF;
+}
+
+/* DISCLAIMER: Reading this code may cause temporary confusion and loss of faith in humanity. */
